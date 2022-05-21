@@ -1,0 +1,21 @@
+INPUT:
+a=int(input('enter a value:'))
+a1=bin(a)
+print(a1)
+b=int(input('enter b value:'))
+b1=bin(b)
+print(b1)
+bA=a&b
+print('bA:',bA)
+bOR=a|b 
+print('bOR:',bOR)
+bXOR=a^b 
+print('bXOR:',bXOR)
+OUTPUT:
+enter a value:1
+0b1
+enter b value:2
+0b10
+bA: 0
+bOR: 3
+bXOR: 3
